@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Mate</title>
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    df-messenger {
+      position: fixed;
+      z-index: 999;
+      --df-messenger-font-color: #000;
+      --df-messenger-font-family: 'Google Sans', sans-serif;
+      --df-messenger-chat-background: #eef6f5;
+      --df-messenger-message-user-background: #6db1a3;
+      --df-messenger-message-bot-background: #fff;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <df-messenger
+    location="us-central1"
+    project-id="ai-venture-442807"
+    agent-id="1c0eb2ae-7a62-4c18-a716-4e6d50752b92"
+    language-code="id"
+    max-query-length="-1">
+    <df-messenger-chat chat-title="AI Mate"></df-messenger-chat>
+  </df-messenger>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</body>
+</html>
